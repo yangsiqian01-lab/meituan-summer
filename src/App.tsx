@@ -8,7 +8,7 @@ import { Report } from './pages/Report';
 
 function App() {
   return (
-    <BrowserRouter basename="/meituan-summer/">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
